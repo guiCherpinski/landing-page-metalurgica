@@ -1,0 +1,20 @@
+body{
+    font-family: 'Roboto' , sans-serif;
+}
+
+header{
+    background: #14191E;
+}
+
+header h1{
+    color: white;
+}
+
+header h1 span {
+    color: #FA776E;
+}
+
+header nav {
+    display: flex;
+    just
+}

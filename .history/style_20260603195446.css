@@ -1,13 +1,11 @@
 body{
     font-family: 'Roboto' , sans-serif;
     justify-items: center;
-    /*background: #0A0A14;*/
 }
 
 header{
     background: #14191E;
     width: 1100px;
-    border-bottom: 1px solid #2D2929;
 }
 
 header h1{
@@ -49,24 +47,7 @@ header button:hover{
 }
 
 .hero-section img{
+    object-fit: cover;
     width: 1100px;
-    height: 400px;
-}
-
-.text-hero{
-    background: #14191E;
-    border-left: 3px solid #F57D1E;
-    width: 500px;
-    padding: 20px;
-    position: relative;
-    bottom: 200px;
-    left: 40px;
-}
-
-.text-hero h2{
-    color: white;
-}
-
-.text-hero p{
-    color: #c8c8c8;
+    height: 300px;
 }

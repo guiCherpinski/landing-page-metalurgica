@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto' , sans-serif;
+    justify-items: center;
+}
+
+header{
+    background: #14191E;
+    width: 1100px;
+    he
+}
+
+header h1{
+    color: white;
+}
+
+header h1 span {
+    color: #FA776E;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}

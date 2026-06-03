@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto' , sans-serif;
+    justify-items: center;
+}
+
+header{
+    background: #14191E;
+    width: 1100px;
+}
+
+header h1{
+    color: white;
+}
+
+header h1 span {
+    color: #FA776E;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+header button {
+    width:140px;
+    height: 35px;
+    background: #F57D1E;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+header button:hover{
+    cursor: pointer;
+    background:#CC5500;
+}
