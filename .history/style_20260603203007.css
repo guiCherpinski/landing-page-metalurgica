@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto' , sans-serif;
     justify-items: center;
-    background: #0A0A14;
+    /*background: #0A0A14;*/
 }
 
 header{
@@ -79,9 +79,6 @@ header button:hover{
 
 .our-process{
     background: #14191E;
-    height: 600px;
-    border: 2px solid #1F242C;
-    border-radius: 2px;
 }
 
 .our-process h2{
@@ -99,56 +96,13 @@ header button:hover{
 
 .article-benefits{
     background: #1E232D;
-    border-top: 2px solid #F27B1E;
-    text-align: center;
+    border-top: ;
 }
 
 .article-process{
     background: #1E232D;
-    border-top: 2px solid #F27B1E;
-    text-align: center;
 }
 
 .article-certificates{
     background: #1E232D;
-    border-top: 2px solid #F27B1E;
-    text-align: center;
-}
-
-.last-projects{
-    background: #14191E;
-}
-
-.last-projects h2{
-    color: white;
-}
-
-.last-projects p {
-    color: #c8c8c8;
-}
-
-.certificates{
-    background: #14191E;
-}
-
-.certificates h2{
-    color: white;
-}
-
-.certificates p{
-    color: #c8c8c8;
-}
-
-.all-sections{
-    display: grid;
-    grid-template-columns: 680px 400px;
-    gap: 20px;
-}
-
-.rodape h2{
-    color: white;
-}
-
-.rodape p{
-    color: #c8c8c8;
 }

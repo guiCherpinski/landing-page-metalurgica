@@ -79,7 +79,9 @@ header button:hover{
 
 .our-process{
     background: #14191E;
-    height: 600px;
+    width: 1060px;
+    height: 600;
+    padding: 20px;
     border: 2px solid #1F242C;
     border-radius: 2px;
 }
@@ -141,8 +143,8 @@ header button:hover{
 
 .all-sections{
     display: grid;
-    grid-template-columns: 680px 400px;
-    gap: 20px;
+    grid-template-columns: 700px 400px;
+    gap: 40px;
 }
 
 .rodape h2{

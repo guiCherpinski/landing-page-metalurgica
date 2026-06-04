@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto' , sans-serif;
     justify-items: center;
-    background: #0A0A14;
+    /*background: #0A0A14;*/
 }
 
 header{
@@ -79,7 +79,9 @@ header button:hover{
 
 .our-process{
     background: #14191E;
-    height: 600px;
+    width: 1060px;
+    height: 600;
+    padding: 20px;
     border: 2px solid #1F242C;
     border-radius: 2px;
 }
@@ -140,15 +142,14 @@ header button:hover{
 }
 
 .all-sections{
-    display: grid;
-    grid-template-columns: 680px 400px;
+    display: flex;
     gap: 20px;
 }
 
-.rodape h2{
-    color: white;
+.two-sections{
+
 }
 
-.rodape p{
-    color: #c8c8c8;
+.rodape{
+    
 }
