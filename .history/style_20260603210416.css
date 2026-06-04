@@ -151,7 +151,7 @@ header button:hover{
 
 .rodape{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .rodape h2{
@@ -165,9 +165,4 @@ header button:hover{
 .rodape img {
     width: 40px;
     height: 40px;
-}
-
-.text-rodape{
-    display: flex;
-    margin: 10px;
 }

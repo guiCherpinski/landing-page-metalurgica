@@ -149,25 +149,10 @@ header button:hover{
     gap: 20px;
 }
 
-.rodape{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 .rodape h2{
     color: white;
 }
 
 .rodape p{
     color: #c8c8c8;
-}
-
-.rodape img {
-    width: 40px;
-    height: 40px;
-}
-
-.text-rodape{
-    display: flex;
-    margin: 10px;
 }
