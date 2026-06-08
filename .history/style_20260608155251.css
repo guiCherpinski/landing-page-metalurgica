@@ -202,15 +202,15 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
     justify-items: center;
+    align-items: center;
 }
 
 .paragrafos p {
-    align-content: center;
     width: 150px;
     height: 40px;
     background: #1E232D;
     color: #C56F65;
     text-align: center;
-    border: 1px solid #292E38;
+    border: 2px solid #1F242C;
     border-radius: 2px;
 }

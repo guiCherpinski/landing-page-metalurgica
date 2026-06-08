@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto' , sans-serif;
     justify-items: center;
-    background: #0A0A14;
+    /*background: #0A0A14;*/
 }
 
 header{
@@ -48,10 +48,6 @@ header button:hover{
     background:#CC5500;
 }
 
-main {
-    height: 450px;
-}
-
 .hero-section img{
     width: 1100px;
     height: 400px;
@@ -84,8 +80,8 @@ main {
 .our-process{
     background: #14191E;
     height: 600px;
-    border: 2px solid #292E38;
-    border-radius: 5px;
+    border: 2px solid #1F242C;
+    border-radius: 2px;
     padding: 20px;
 }
 
@@ -122,16 +118,12 @@ main {
 
 .last-projects{
     background: #14191E;
-    border: 2px solid #292E38;
-    border-radius: 5px;
-    padding: 20px;
-    height: 270px;
-    width: 360px;
+    border: 2px solid #1F242C;
+    border-radius: 2px;
 }
 
 .last-projects h2{
     color: white;
-    border-bottom: 2px solid #292E38;
 }
 
 .last-projects p {
@@ -140,17 +132,12 @@ main {
 
 .certificates{
     background: #14191E;
-    border: 2px solid #292E38;
-    border-radius: 5px;
-    height: 270px;
-    width: 360px;
-    padding: 20px;
-    margin-top: 15px;
+    border: 2px solid #1F242C;
+    border-radius: 2px;
 }
 
 .certificates h2{
     color: white;
-    border-bottom: 2px solid #292E38;
 }
 
 .certificates p{
@@ -159,17 +146,17 @@ main {
 
 .all-sections{
     display: grid;
-    grid-template-columns: 640px 400px;
+    grid-template-columns: 680px 400px;
     gap: 20px;
 }
 
-.rodape{    
+.rodape{
     padding: 20px;
-    width: 1060px;
+    width: 1080px;
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border-top: 2px solid #1F242C;
+    background: #14191E;
 }
 
 .rodape h2{
@@ -186,31 +173,6 @@ main {
 }
 
 .text-rodape{
-    border-top: #292E38;
     display: flex;
     margin: 10px;
-    gap: 10px;
-}
-
-.grid{ 
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.paragrafos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    justify-items: center;
-}
-
-.paragrafos p {
-    align-content: center;
-    width: 150px;
-    height: 40px;
-    background: #1E232D;
-    color: #C56F65;
-    text-align: center;
-    border: 1px solid #292E38;
-    border-radius: 2px;
 }
